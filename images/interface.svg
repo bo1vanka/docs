@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290" font-family="Consolas, 'Courier New', monospace" font-size="15">
+<title>Окно терминала с выводом команды list</title>
+<rect width="760" height="290" rx="10" fill="#1e1e1e"/>
+<rect width="760" height="30" rx="10" fill="#3c3c3c"/>
+<circle cx="20" cy="15" r="6" fill="#ff5f56"/><circle cx="40" cy="15" r="6" fill="#ffbd2e"/><circle cx="60" cy="15" r="6" fill="#27c93f"/>
+<g fill="#d4d4d4">
+<text x="20" y="62" fill="#6a9955">$ python ticketdesk.py list</text>
+<text x="20" y="95">ID   Приоритет  Статус       Тема</text>
+<text x="20" y="122">1    high       new          Не работает принтер в кабинете 12</text>
+<text x="20" y="149">2    normal     new          Установить Office на новый ПК</text>
+<text x="20" y="190" fill="#6a9955">$ python ticketdesk.py stats</text>
+<text x="20" y="217">new         : 2</text>
+<text x="20" y="241">in_progress : 0</text><text x="20" y="265">closed      : 0</text>
+</g></svg>

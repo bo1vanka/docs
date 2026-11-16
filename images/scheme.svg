@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" font-family="Arial, sans-serif" font-size="15">
+<title>Архитектура TicketDesk</title>
+<rect width="760" height="260" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<g stroke="#37474f" stroke-width="2" fill="#e3f2fd">
+<rect x="20" y="95" width="150" height="70" rx="8"/>
+<rect x="235" y="95" width="170" height="70" rx="8" fill="#fff3e0"/>
+<rect x="470" y="30" width="180" height="70" rx="8" fill="#e8f5e9"/>
+<rect x="470" y="160" width="180" height="70" rx="8" fill="#e8f5e9"/>
+</g>
+<g stroke="#37474f" stroke-width="2" marker-end="url(#a)" fill="none">
+<line x1="170" y1="130" x2="233" y2="130"/>
+<line x1="405" y1="115" x2="468" y2="75"/>
+<line x1="405" y1="145" x2="468" y2="195"/>
+</g>
+<g text-anchor="middle" fill="#212121">
+<text x="95" y="125" font-weight="bold">Пользователь</text><text x="95" y="146">терминал</text>
+<text x="320" y="125" font-weight="bold">ticketdesk.py</text><text x="320" y="146">обработка команд</text>
+<text x="560" y="60" font-weight="bold">tickets.db</text><text x="560" y="82">база заявок (SQLite)</text>
+<text x="560" y="190" font-weight="bold">ticketdesk.json</text><text x="560" y="212">конфигурация</text>
+</g></svg>

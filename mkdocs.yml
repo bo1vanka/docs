@@ -1,0 +1,18 @@
+site_name: TicketDesk — документация
+site_description: Документация консольной системы учёта заявок
+docs_dir: .
+site_dir: site
+theme:
+  name: mkdocs
+  language: ru
+nav:
+  - Главная: index.md
+  - Быстрый старт: quick-start.md
+  - Установка и настройка: installation.md
+  - Руководство пользователя: user-guide.md
+  - Справочная информация: reference.md
+  - FAQ: faq.md
+  - Устранение неисправностей: troubleshooting.md
+exclude_docs: |
+  README.md
+  app/
